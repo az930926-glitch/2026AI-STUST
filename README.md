@@ -92,7 +92,7 @@ project/
 | `07_messagebox彈出視窗.py` | 提示 / 警告 / 錯誤 / 是非詢問四種彈窗 |
 | `08_小作品_BMI計算機.py` | 綜合練習：把上面所有元件組成 BMI 小工具 |
 | `09_小作品_斜向拋射.py` | 把 DAY2 的斜向拋射函式套上 GUI，輸入 v0、角度即可算出 T / H / R |
-| `10_小作品_湖西鄉人口GUI.py` | 整合 `filedialog` 檔案選擇器 + `FigureCanvasTkAgg` 把 matplotlib 圖嵌進 tkinter 視窗 |
+| `10_小作品_湖西鄉人口GUI.py` | 整合 `filedialog` 檔案選擇器 + `FigureCanvasTkAgg` 嵌入 matplotlib + `ttk.Combobox` 下拉選單切換 6 種圖（差方圖 / 總人口 / 出生 / 死亡 / 遷入遷出 / 男女）|
 
 ---
 
