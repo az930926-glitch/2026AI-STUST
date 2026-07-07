@@ -21,6 +21,8 @@
 # 需要：pip install tensorflow opencv-python numpy
 
 import os
+os.environ["TF_USE_LEGACY_KERAS"] = "1"   # 必須在 import tensorflow 之前
+
 import time
 import cv2
 import numpy as np

@@ -8,6 +8,9 @@
 # 需要：pip install tensorflow opencv-python numpy
 
 import os
+# 必須在 import tensorflow 之前設定：讓 TF 2.16+ 也能吃 TM 匯出的舊格式 h5
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
+
 import cv2
 import numpy as np
 import tensorflow as tf
